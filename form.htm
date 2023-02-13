@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+</head>
+<body>
+    <form action="">
+        <p><input name="user" type="text" placeholder="Email or phone"></p>
+        <p><input name="password" type="password" placeholder="Password"></p>
+        <p><input type="submit" value="Log in"></p>
+    </form>
+    <hr />
+    <form>
+        <fieldset>
+            <legend>cinsiyyət</legend>
+            <label for=""><input name="sex" type="radio">Kişi</label>
+            <label for=""><input name="sex" type="radio">Qadın</label>
+        </fieldset>
+        <p>Dogum yeri
+            <input list="city" />
+            <datalist id="city">
+                <option value="">Astara</option>
+                <option value="">Baki</option>
+                <option value="">Celilabad</option>
+                <option value="">Daskend</option>
+                <option value="">Deveci</option>
+            </datalist>
+        </p>
+    </form>
+</body>
+</html>
